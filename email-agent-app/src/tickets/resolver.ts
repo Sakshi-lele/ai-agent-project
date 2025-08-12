@@ -34,4 +34,8 @@ export class TicketResolver {
     getResolvedTickets(): Ticket[] {
         return this.tickets.filter(ticket => ticket.status === 'resolved');
     }
+    
+    getOpenTickets(): Ticket[] {
+        return this.tickets.filter(ticket => ticket.status === 'open');
+    }
 }
