@@ -1,0 +1,27 @@
+{
+  "name": "email-agent-app",
+  "version": "1.0.0",
+  "description": "An email agent for resolving tickets and sending notifications.",
+  "main": "src/agent.ts",
+  "scripts": {
+    "start": "ts-node src/agent.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "nodemailer": "^6.10.1",
+    "openai": "^5.12.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.18.126",
+    "@types/nodemailer": "^6.4.17",
+    "jest": "^27.0.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": []
+}
